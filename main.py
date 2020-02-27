@@ -6,12 +6,12 @@ import datetime
 
 groceries = {}
 with open('groceries.csv') as csvfile:
-    reader = pandas.read_csv(csvfile, delimiter=';')
+    reader = pandas.read_csv(csvfile, delimiter=',')
     groceries = reader.to_dict('records')
 
 names = {}
 with open('name.csv') as csvfile:
-    reader = pandas.read_csv(csvfile, delimiter=';')
+    reader = pandas.read_csv(csvfile, delimiter=',')
     names = reader.to_dict('records')
 
 while True:
@@ -30,10 +30,10 @@ while True:
     newFile = open('baskets/'+idBasket, 'a+')
     newFile.write(idBasket+eol)
     newFile.write(now+eol)
-    newFile.write(idName+';'+firstName+eol)
+    newFile.write(idName+','+firstName+eol)
     newFile.write(str(nbOrder)+eol)
     for item in groceriesBasket:
-        newFile.write(item['name']+';'+item['type']+';'+str(item['price'])+eol)
+        newFile.write(item['name']+','+item['type']+','+str(item['price'])+eol)
     newFile.close()
     sleepTime = random.randint(1, 20)
     time.sleep(sleepTime)
