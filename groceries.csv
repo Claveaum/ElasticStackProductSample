@@ -1,0 +1,51 @@
+name;type;price
+Pomme de terre;Légumes;2
+Tomate;Légumes;3
+Comcombre;Légumes;2.5
+Poireau;Légumes;2.1
+Courgette;Légumes;2.6
+Radis;Légumes;1.4
+Haricot vert;Légumes;1.2
+Flageolet;Légumes;1.5
+Chou;Légumes;2.9
+Aubergine;Légumes;3.9
+Salsifis;Légumes;4.2
+Fraise;Fruits;5
+Banane;Fruits;4
+Pomme;Fruits;4.5
+Mangue;Fruits;7
+Framboise;Fruits;6
+Myrtille;Fruits;5.5
+Abricot;Fruits;5.3
+Pêche;Fruits;6.8
+Poire;Fruits;4.9
+Steak haché;Viandes;7
+Blanc de poulet;Viandes;6
+Entrecôte;Viandes;15
+Gigot;Viandes;27
+Jarret de porc;Viandes;15
+Télévision;Éléctroménager;500
+Lave linge;Éléctroménager;400
+Maillot de corps;Vêtements;45
+Slip de bain;Vêtements;10
+Robe de soirée;Vêtements;75
+Chaine HI-FI;Éléctroménager;200
+Savon;Hygiène;4.5
+Shampooing;Hygiène;4
+Monopoly;Jouets;11
+Poupée;Jouets;13
+Peluche;Jouets;9
+Brebiou;Fromage;12
+Délice d'été;Fromage;22
+Fougerus;Fromage;18
+Chèvre;Fromage;9
+Camembert;Fromage;8
+Album de musique;Culture;17
+Manga;Culture;9
+Jeux vidéo;Culture;23
+Marteau;Outil;23
+Pince;Outil;11
+Étau;Outil;33
+Collier;Animaux;15
+Croquettes;Animaux;10
+Litière;Animaux;7.8
